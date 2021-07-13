@@ -11,8 +11,8 @@ const advance = (obj, level) => {
   const parts = [];
 
   if(Array.isArray(obj)) {
+    if(obj.length > 0) {
     const entry = obj[0];
-    if(entry) {
       const t = typeof entry;
       switch(t) {
       case 'string':
