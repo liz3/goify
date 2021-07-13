@@ -27,6 +27,8 @@ const advance = (obj, level) => {
         return `[]${subObj}` ;
       }
       }
+    } else {
+      return '[]interface{}'; // 0 length array
     }
   } else {
     for(const key of Object.keys(obj)) {
