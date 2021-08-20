@@ -1,5 +1,5 @@
 # Goify
-Tranforms JSON(JS) objects to Go structs.
+Tranforms JSON(Javascript) objects to Go structs.
 
 ## Usage
 ```sh
